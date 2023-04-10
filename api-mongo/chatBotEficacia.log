@@ -1,0 +1,273 @@
+2023-04-10 14:10:58.582  INFO 18172 --- [restartedMain] com.dba.demo.apimongoDemoApplication     : Starting apimongoDemoApplication using Java 17.0.6 on Carlos-Garaicoa with PID 18172 (C:\Users\LeydiDiaz\Desktop\jcabelloc-itana-itana-demos-9652457fc33f\jcabelloc-itana-itana-demos-9652457fc33f\api-mongo\target\classes started by LeydiDiaz in C:\Users\LeydiDiaz\Desktop\jcabelloc-itana-itana-demos-9652457fc33f\jcabelloc-itana-itana-demos-9652457fc33f\api-mongo)
+2023-04-10 14:10:58.597  INFO 18172 --- [restartedMain] com.dba.demo.apimongoDemoApplication     : No active profile set, falling back to 1 default profile: "default"
+2023-04-10 14:10:58.699  INFO 18172 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-10 14:10:58.700  INFO 18172 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-10 14:11:00.321  INFO 18172 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2023-04-10 14:11:00.478  INFO 18172 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 144 ms. Found 1 MongoDB repository interfaces.
+2023-04-10 14:11:01.744  INFO 18172 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9003 (http)
+2023-04-10 14:11:01.765  INFO 18172 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-10 14:11:01.766  INFO 18172 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2023-04-10 14:11:02.031  INFO 18172 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-10 14:11:02.031  INFO 18172 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3330 ms
+2023-04-10 14:11:02.644  INFO 18172 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2023-04-10 14:11:02.798  INFO 18172 --- [cluster-rtt-ClusterId{value='64345f46aba9092870630542', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:2}] to localhost:27017
+2023-04-10 14:11:02.798  INFO 18172 --- [cluster-ClusterId{value='64345f46aba9092870630542', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:1}] to localhost:27017
+2023-04-10 14:11:02.799  INFO 18172 --- [cluster-ClusterId{value='64345f46aba9092870630542', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=54245700}
+2023-04-10 14:11:03.025  INFO 18172 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-10 14:11:03.766  INFO 18172 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@732f1841, org.springframework.security.web.context.SecurityContextPersistenceFilter@496477d1, org.springframework.security.web.header.HeaderWriterFilter@6f0aed8d, org.springframework.web.filter.CorsFilter@7494f54c, org.springframework.security.web.authentication.logout.LogoutFilter@272e909b, com.dba.demo.filter.JwtRequestFilter@146569a3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@a9a09b6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4a6533c8, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@ec2e49, org.springframework.security.web.session.SessionManagementFilter@1d133a12, org.springframework.security.web.access.ExceptionTranslationFilter@421bc57, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@57c7f944]
+2023-04-10 14:11:04.152  INFO 18172 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9003 (http) with context path ''
+2023-04-10 14:11:04.168  INFO 18172 --- [restartedMain] com.dba.demo.apimongoDemoApplication     : Started apimongoDemoApplication in 6.388 seconds (JVM running for 8.824)
+2023-04-10 14:12:30.272  INFO 18172 --- [http-nio-9003-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-10 14:12:30.273  INFO 18172 --- [http-nio-9003-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-10 14:12:30.275  INFO 18172 --- [http-nio-9003-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-04-10 14:12:30.494  INFO 18172 --- [http-nio-9003-exec-1] com.dba.demo.rest.DemoRest               : Autenticando al usuario DbaExpertsprueba
+2023-04-10 14:12:50.518  INFO 18172 --- [http-nio-9003-exec-3] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:3}] to localhost:27017
+2023-04-10 14:14:38.081  INFO 18172 --- [restartedMain] com.dba.demo.apimongoDemoApplication     : Starting apimongoDemoApplication using Java 17.0.6 on Carlos-Garaicoa with PID 18172 (C:\Users\LeydiDiaz\Desktop\jcabelloc-itana-itana-demos-9652457fc33f\jcabelloc-itana-itana-demos-9652457fc33f\api-mongo\target\classes started by LeydiDiaz in C:\Users\LeydiDiaz\Desktop\jcabelloc-itana-itana-demos-9652457fc33f\jcabelloc-itana-itana-demos-9652457fc33f\api-mongo)
+2023-04-10 14:14:38.082  INFO 18172 --- [restartedMain] com.dba.demo.apimongoDemoApplication     : No active profile set, falling back to 1 default profile: "default"
+2023-04-10 14:14:38.811  INFO 18172 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2023-04-10 14:14:38.813  INFO 18172 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 MongoDB repository interfaces.
+2023-04-10 14:14:39.004  INFO 18172 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9003 (http)
+2023-04-10 14:14:39.005  INFO 18172 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-10 14:14:39.006  INFO 18172 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2023-04-10 14:14:39.088  INFO 18172 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-10 14:14:39.089  INFO 18172 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 991 ms
+2023-04-10 14:14:39.293  INFO 18172 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2023-04-10 14:14:39.303  INFO 18172 --- [cluster-ClusterId{value='6434601faba9092870630544', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:4, serverValue:19}] to localhost:27017
+2023-04-10 14:14:39.303  INFO 18172 --- [cluster-rtt-ClusterId{value='6434601faba9092870630544', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:5, serverValue:20}] to localhost:27017
+2023-04-10 14:14:39.303  INFO 18172 --- [cluster-ClusterId{value='6434601faba9092870630544', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2711300}
+2023-04-10 14:14:39.347  WARN 18172 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: abb5d778-0178-4f1e-8786-ffc3a6895031
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-04-10 14:14:39.395  INFO 18172 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7175dff6, org.springframework.security.web.context.SecurityContextPersistenceFilter@4a7ac5bd, org.springframework.security.web.header.HeaderWriterFilter@4e94fbae, org.springframework.security.web.csrf.CsrfFilter@670ce323, org.springframework.security.web.authentication.logout.LogoutFilter@26c707f5, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@45fea34c, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@4b50c97e, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@6d4bbac8, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@498d09e4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@11bd8ab5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@789d4aa7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1126ea86, org.springframework.security.web.session.SessionManagementFilter@4aef3238, org.springframework.security.web.access.ExceptionTranslationFilter@1a08329d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4d2dcf8]
+2023-04-10 14:14:39.425  INFO 18172 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-10 14:14:39.482  INFO 18172 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9003 (http) with context path ''
+2023-04-10 14:14:39.489  INFO 18172 --- [restartedMain] com.dba.demo.apimongoDemoApplication     : Started apimongoDemoApplication in 1.601 seconds (JVM running for 224.145)
+2023-04-10 14:14:39.497  INFO 18172 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   SpringBootWebSecurityConfiguration matched:
+      - found 'session' scope (OnWebApplicationCondition)
+      - AllNestedConditions 2 matched 0 did not; NestedCondition on DefaultWebSecurityCondition.Beans @ConditionalOnMissingBean (types: org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter,org.springframework.security.web.SecurityFilterChain; SearchStrategy: all) did not find any beans; NestedCondition on DefaultWebSecurityCondition.Classes @ConditionalOnClass found required classes 'org.springframework.security.web.SecurityFilterChain', 'org.springframework.security.config.annotation.web.builders.HttpSecurity' (DefaultWebSecurityCondition)
+
+   UserDetailsServiceAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.security.authentication.AuthenticationManager' (OnClassCondition)
+      - @ConditionalOnBean (types: org.springframework.security.config.annotation.ObjectPostProcessor; SearchStrategy: all) found bean 'objectPostProcessor'; @ConditionalOnMissingBean (types: org.springframework.security.authentication.AuthenticationManager,org.springframework.security.authentication.AuthenticationProvider,org.springframework.security.core.userdetails.UserDetailsService,org.springframework.security.authentication.AuthenticationManagerResolver,org.springframework.security.oauth2.jwt.JwtDecoder,org.springframework.security.oauth2.server.resource.introspection.OpaqueTokenIntrospector,org.springframework.security.oauth2.client.registration.ClientRegistrationRepository; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebSecurityEnablerConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.security.config.annotation.web.configuration.EnableWebSecurity' (OnClassCondition)
+      - found 'session' scope (OnWebApplicationCondition)
+      - @ConditionalOnMissingBean (names: springSecurityFilterChain; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+    None
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2023-04-10 14:36:39.275  INFO 18172 --- [restartedMain] com.dba.demo.apimongoDemoApplication     : Starting apimongoDemoApplication using Java 17.0.6 on Carlos-Garaicoa with PID 18172 (C:\Users\LeydiDiaz\Desktop\jcabelloc-itana-itana-demos-9652457fc33f\jcabelloc-itana-itana-demos-9652457fc33f\api-mongo\target\classes started by LeydiDiaz in C:\Users\LeydiDiaz\Desktop\jcabelloc-itana-itana-demos-9652457fc33f\jcabelloc-itana-itana-demos-9652457fc33f\api-mongo)
+2023-04-10 14:36:39.276  INFO 18172 --- [restartedMain] com.dba.demo.apimongoDemoApplication     : No active profile set, falling back to 1 default profile: "default"
+2023-04-10 14:36:40.393  INFO 18172 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2023-04-10 14:36:40.448  INFO 18172 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 53 ms. Found 1 MongoDB repository interfaces.
+2023-04-10 14:36:40.649  INFO 18172 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9003 (http)
+2023-04-10 14:36:40.650  INFO 18172 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-10 14:36:40.650  INFO 18172 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2023-04-10 14:36:40.738  INFO 18172 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-10 14:36:40.739  INFO 18172 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1450 ms
+2023-04-10 14:36:40.848  INFO 18172 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2023-04-10 14:36:40.860  INFO 18172 --- [cluster-ClusterId{value='64346548aba9092870630545', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:6, serverValue:21}] to localhost:27017
+2023-04-10 14:36:40.860  INFO 18172 --- [cluster-ClusterId{value='64346548aba9092870630545', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3550900}
+2023-04-10 14:36:40.864  INFO 18172 --- [cluster-rtt-ClusterId{value='64346548aba9092870630545', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:7, serverValue:22}] to localhost:27017
+2023-04-10 14:36:40.903  INFO 18172 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-10 14:36:41.139  INFO 18172 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2f167417, org.springframework.security.web.context.SecurityContextPersistenceFilter@4ab6f5d6, org.springframework.security.web.header.HeaderWriterFilter@1f1c4011, org.springframework.web.filter.CorsFilter@35ad3df9, org.springframework.security.web.authentication.logout.LogoutFilter@51c32814, com.dba.demo.filter.JwtRequestFilter@1a77875f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4d04160e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@30e5cb77, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@445ac048, org.springframework.security.web.session.SessionManagementFilter@241aae36, org.springframework.security.web.access.ExceptionTranslationFilter@790fc741, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1dbc86c0]
+2023-04-10 14:36:41.350  INFO 18172 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9003 (http) with context path ''
+2023-04-10 14:36:41.358  INFO 18172 --- [restartedMain] com.dba.demo.apimongoDemoApplication     : Started apimongoDemoApplication in 2.241 seconds (JVM running for 1546.014)
+2023-04-10 14:36:41.362  INFO 18172 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+    None
+
+
+Negative matches:
+-----------------
+
+   SpringBootWebSecurityConfiguration:
+      Did not match:
+         - AllNestedConditions 1 matched 1 did not; NestedCondition on DefaultWebSecurityCondition.Beans @ConditionalOnMissingBean (types: org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter,org.springframework.security.web.SecurityFilterChain; SearchStrategy: all) found beans of type 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter' webSecurityConfig; NestedCondition on DefaultWebSecurityCondition.Classes @ConditionalOnClass found required classes 'org.springframework.security.web.SecurityFilterChain', 'org.springframework.security.config.annotation.web.builders.HttpSecurity' (DefaultWebSecurityCondition)
+      Matched:
+         - found 'session' scope (OnWebApplicationCondition)
+
+   UserDetailsServiceAutoConfiguration:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.springframework.security.authentication.AuthenticationManager,org.springframework.security.authentication.AuthenticationProvider,org.springframework.security.core.userdetails.UserDetailsService,org.springframework.security.authentication.AuthenticationManagerResolver,org.springframework.security.oauth2.jwt.JwtDecoder,org.springframework.security.oauth2.server.resource.introspection.OpaqueTokenIntrospector,org.springframework.security.oauth2.client.registration.ClientRegistrationRepository; SearchStrategy: all) found beans of type 'org.springframework.security.authentication.AuthenticationManager' authenticationManagerBean and found beans of type 'org.springframework.security.core.userdetails.UserDetailsService' usuarioDetailsService (OnBeanCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.security.authentication.AuthenticationManager' (OnClassCondition)
+
+   WebSecurityEnablerConfiguration:
+      Did not match:
+         - @ConditionalOnMissingBean (names: springSecurityFilterChain; SearchStrategy: all) found beans named springSecurityFilterChain (OnBeanCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.security.config.annotation.web.configuration.EnableWebSecurity' (OnClassCondition)
+         - found 'session' scope (OnWebApplicationCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2023-04-10 14:53:57.336  INFO 18172 --- [http-nio-9003-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-10 14:53:57.338  INFO 18172 --- [http-nio-9003-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-10 14:53:57.340  INFO 18172 --- [http-nio-9003-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-04-10 14:53:57.385  INFO 18172 --- [http-nio-9003-exec-2] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:8, serverValue:23}] to localhost:27017
+2023-04-10 14:56:38.307  INFO 18172 --- [restartedMain] com.dba.demo.apimongoDemoApplication     : Starting apimongoDemoApplication using Java 17.0.6 on Carlos-Garaicoa with PID 18172 (C:\Users\LeydiDiaz\Desktop\jcabelloc-itana-itana-demos-9652457fc33f\jcabelloc-itana-itana-demos-9652457fc33f\api-mongo\target\classes started by LeydiDiaz in C:\Users\LeydiDiaz\Desktop\jcabelloc-itana-itana-demos-9652457fc33f\jcabelloc-itana-itana-demos-9652457fc33f\api-mongo)
+2023-04-10 14:56:38.307  INFO 18172 --- [restartedMain] com.dba.demo.apimongoDemoApplication     : No active profile set, falling back to 1 default profile: "default"
+2023-04-10 14:56:38.804  INFO 18172 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2023-04-10 14:56:38.853  INFO 18172 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 48 ms. Found 1 MongoDB repository interfaces.
+2023-04-10 14:56:38.995  INFO 18172 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9003 (http)
+2023-04-10 14:56:38.996  INFO 18172 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-10 14:56:38.996  INFO 18172 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2023-04-10 14:56:39.068  INFO 18172 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-10 14:56:39.069  INFO 18172 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 752 ms
+2023-04-10 14:56:39.146  INFO 18172 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2023-04-10 14:56:39.156  INFO 18172 --- [cluster-ClusterId{value='643469f7aba9092870630547', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:9, serverValue:24}] to localhost:27017
+2023-04-10 14:56:39.156  INFO 18172 --- [cluster-ClusterId{value='643469f7aba9092870630547', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2074500}
+2023-04-10 14:56:39.156  INFO 18172 --- [cluster-rtt-ClusterId{value='643469f7aba9092870630547', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:10, serverValue:25}] to localhost:27017
+2023-04-10 14:56:39.185  INFO 18172 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-10 14:56:39.285  INFO 18172 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@497a0912, org.springframework.security.web.context.SecurityContextPersistenceFilter@5fde8131, org.springframework.security.web.header.HeaderWriterFilter@3ddf9d14, org.springframework.web.filter.CorsFilter@7d1f4d1a, org.springframework.security.web.authentication.logout.LogoutFilter@605612fa, com.dba.demo.filter.JwtRequestFilter@4e6454fa, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@31cfebb5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@70b9f7a5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@29524cde, org.springframework.security.web.session.SessionManagementFilter@6f634b32, org.springframework.security.web.access.ExceptionTranslationFilter@2a4896e1, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1c09a466]
+2023-04-10 14:56:39.391  INFO 18172 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9003 (http) with context path ''
+2023-04-10 14:56:39.397  INFO 18172 --- [restartedMain] com.dba.demo.apimongoDemoApplication     : Started apimongoDemoApplication in 1.168 seconds (JVM running for 2744.053)
+2023-04-10 14:56:39.400  INFO 18172 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-04-10 14:56:44.939  INFO 18172 --- [RMI TCP Connection(69)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-04-10 14:56:53.519  INFO 4896 --- [restartedMain] com.dba.demo.apimongoDemoApplication     : Starting apimongoDemoApplication using Java 17.0.6 on Carlos-Garaicoa with PID 4896 (C:\Users\LeydiDiaz\Desktop\jcabelloc-itana-itana-demos-9652457fc33f\jcabelloc-itana-itana-demos-9652457fc33f\api-mongo\target\classes started by LeydiDiaz in C:\Users\LeydiDiaz\Desktop\jcabelloc-itana-itana-demos-9652457fc33f\jcabelloc-itana-itana-demos-9652457fc33f\api-mongo)
+2023-04-10 14:56:53.521  INFO 4896 --- [restartedMain] com.dba.demo.apimongoDemoApplication     : No active profile set, falling back to 1 default profile: "default"
+2023-04-10 14:56:53.616  INFO 4896 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-10 14:56:53.616  INFO 4896 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-10 14:56:55.083  INFO 4896 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2023-04-10 14:56:55.186  INFO 4896 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 95 ms. Found 1 MongoDB repository interfaces.
+2023-04-10 14:56:56.299  INFO 4896 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9003 (http)
+2023-04-10 14:56:56.319  INFO 4896 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-10 14:56:56.320  INFO 4896 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2023-04-10 14:56:56.597  INFO 4896 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-10 14:56:56.598  INFO 4896 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2981 ms
+2023-04-10 14:56:57.037  INFO 4896 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2023-04-10 14:56:57.151  INFO 4896 --- [cluster-rtt-ClusterId{value='64346a095e1f1469b4a84939', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:26}] to localhost:27017
+2023-04-10 14:56:57.151  INFO 4896 --- [cluster-ClusterId{value='64346a095e1f1469b4a84939', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:27}] to localhost:27017
+2023-04-10 14:56:57.152  INFO 4896 --- [cluster-ClusterId{value='64346a095e1f1469b4a84939', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=36166400}
+2023-04-10 14:56:57.368  INFO 4896 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-10 14:56:58.118  INFO 4896 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@737f5810, org.springframework.security.web.context.SecurityContextPersistenceFilter@31880ef9, org.springframework.security.web.header.HeaderWriterFilter@2bec4743, org.springframework.web.filter.CorsFilter@4d3ae482, org.springframework.security.web.authentication.logout.LogoutFilter@17a1a804, com.dba.demo.filter.JwtRequestFilter@5013ba0c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@761b6079, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2ab40e31, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6cb5373c, org.springframework.security.web.session.SessionManagementFilter@34939554, org.springframework.security.web.access.ExceptionTranslationFilter@decadff, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@27310fc5]
+2023-04-10 14:56:58.510  INFO 4896 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9003 (http) with context path ''
+2023-04-10 14:56:58.525  INFO 4896 --- [restartedMain] com.dba.demo.apimongoDemoApplication     : Started apimongoDemoApplication in 5.739 seconds (JVM running for 7.794)
+2023-04-10 14:57:09.550  INFO 4896 --- [http-nio-9003-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-10 14:57:09.551  INFO 4896 --- [http-nio-9003-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-10 14:57:09.553  INFO 4896 --- [http-nio-9003-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-04-10 14:57:10.001  INFO 4896 --- [http-nio-9003-exec-1] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:28}] to localhost:27017
+2023-04-10 14:59:16.912  INFO 4896 --- [http-nio-9003-exec-5] com.dba.demo.rest.DemoRest               : Autenticando al usuario DbaExpertspruebaa
+2023-04-10 15:03:03.092  INFO 4896 --- [restartedMain] com.dba.demo.apimongoDemoApplication     : Starting apimongoDemoApplication using Java 17.0.6 on Carlos-Garaicoa with PID 4896 (C:\Users\LeydiDiaz\Desktop\jcabelloc-itana-itana-demos-9652457fc33f\jcabelloc-itana-itana-demos-9652457fc33f\api-mongo\target\classes started by LeydiDiaz in C:\Users\LeydiDiaz\Desktop\jcabelloc-itana-itana-demos-9652457fc33f\jcabelloc-itana-itana-demos-9652457fc33f\api-mongo)
+2023-04-10 15:03:03.092  INFO 4896 --- [restartedMain] com.dba.demo.apimongoDemoApplication     : No active profile set, falling back to 1 default profile: "default"
+2023-04-10 15:03:03.495  INFO 4896 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2023-04-10 15:03:03.496  INFO 4896 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 MongoDB repository interfaces.
+2023-04-10 15:03:03.654  INFO 4896 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9003 (http)
+2023-04-10 15:03:03.656  INFO 4896 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-10 15:03:03.656  INFO 4896 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2023-04-10 15:03:03.724  INFO 4896 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-10 15:03:03.725  INFO 4896 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 625 ms
+2023-04-10 15:03:03.862  INFO 4896 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2023-04-10 15:03:03.869  INFO 4896 --- [cluster-ClusterId{value='64346b775e1f1469b4a8493b', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:4, serverValue:30}] to localhost:27017
+2023-04-10 15:03:03.869  INFO 4896 --- [cluster-ClusterId{value='64346b775e1f1469b4a8493b', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2188800}
+2023-04-10 15:03:03.869  INFO 4896 --- [cluster-rtt-ClusterId{value='64346b775e1f1469b4a8493b', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:5, serverValue:29}] to localhost:27017
+2023-04-10 15:03:03.905  WARN 4896 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: afbc96d6-caff-4cf9-b266-77ed41fa9f2c
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-04-10 15:03:03.941  INFO 4896 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@66277584, org.springframework.security.web.context.SecurityContextPersistenceFilter@360907ff, org.springframework.security.web.header.HeaderWriterFilter@e2df5b2, org.springframework.security.web.csrf.CsrfFilter@15931d3a, org.springframework.security.web.authentication.logout.LogoutFilter@343c8c02, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@c614aab, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@61956a02, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@71e0f1ad, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@b7c2207, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4eff5981, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2f1eb589, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@60153c2f, org.springframework.security.web.session.SessionManagementFilter@3bfea777, org.springframework.security.web.access.ExceptionTranslationFilter@147d9e69, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6f5f876d]
+2023-04-10 15:03:03.964  INFO 4896 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-10 15:03:04.008  INFO 4896 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9003 (http) with context path ''
+2023-04-10 15:03:04.014  INFO 4896 --- [restartedMain] com.dba.demo.apimongoDemoApplication     : Started apimongoDemoApplication in 1.053 seconds (JVM running for 373.283)
+2023-04-10 15:03:04.023  INFO 4896 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   SpringBootWebSecurityConfiguration matched:
+      - found 'session' scope (OnWebApplicationCondition)
+      - AllNestedConditions 2 matched 0 did not; NestedCondition on DefaultWebSecurityCondition.Beans @ConditionalOnMissingBean (types: org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter,org.springframework.security.web.SecurityFilterChain; SearchStrategy: all) did not find any beans; NestedCondition on DefaultWebSecurityCondition.Classes @ConditionalOnClass found required classes 'org.springframework.security.web.SecurityFilterChain', 'org.springframework.security.config.annotation.web.builders.HttpSecurity' (DefaultWebSecurityCondition)
+
+   UserDetailsServiceAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.security.authentication.AuthenticationManager' (OnClassCondition)
+      - @ConditionalOnBean (types: org.springframework.security.config.annotation.ObjectPostProcessor; SearchStrategy: all) found bean 'objectPostProcessor'; @ConditionalOnMissingBean (types: org.springframework.security.authentication.AuthenticationManager,org.springframework.security.authentication.AuthenticationProvider,org.springframework.security.core.userdetails.UserDetailsService,org.springframework.security.authentication.AuthenticationManagerResolver,org.springframework.security.oauth2.jwt.JwtDecoder,org.springframework.security.oauth2.server.resource.introspection.OpaqueTokenIntrospector,org.springframework.security.oauth2.client.registration.ClientRegistrationRepository; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebSecurityEnablerConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.security.config.annotation.web.configuration.EnableWebSecurity' (OnClassCondition)
+      - found 'session' scope (OnWebApplicationCondition)
+      - @ConditionalOnMissingBean (names: springSecurityFilterChain; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+    None
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2023-04-10 15:05:00.621  INFO 4896 --- [RMI TCP Connection(18)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.

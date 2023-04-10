@@ -1,0 +1,12 @@
+com\dba\demo\config\CorsConfig.class
+com\dba\demo\model\Promocion.class
+com\dba\demo\config\WebSecurityConfig.class
+com\dba\demo\service\UsuarioDetailsService.class
+com\dba\demo\apimongoDemoApplication.class
+com\dba\demo\rest\DemoRest.class
+com\dba\demo\service\PromocionService.class
+com\dba\demo\filter\JwtRequestFilter.class
+com\dba\demo\service\JwtUtilService.class
+com\dba\demo\model\AuthenticationReq.class
+com\dba\demo\model\TokenInfo.class
+com\dba\demo\repository\PromocionRepository.class
